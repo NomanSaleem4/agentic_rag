@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  # FastAPI RAG Application
+  rag-api:
+    build: .
+    network_mode: "host"
+    env_file:
+      - ./.env    
+    environment:
+      - PYTHONPATH=/app
+    volumes:
+      - ./data:/app/data
+      - ./vector_index_storage:/app/vector_index_storage
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  # OpenWebUI
+  openwebui:
+    image: ghcr.io/open-webui/open-webui:slim
+    network_mode: host
+    environment:
+      - OLLAMA_BASE_URL=http://localhost:11434 
+      - OPENAI_API_BASE_URL=http://localhost:8000/v1
+      - OPENAI_API_KEY=your-api-key-here
+      - WEBUI_SECRET_KEY=your-secret-key-here
+      - ENABLE_FOLLOW_UP_GENERATION=False
+    depends_on:
+      - rag-api
+    volumes:
+      - openwebui_data:/app/backend/data
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8080/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+  
+  # phoenix:
+  #   image: arizephoenix/phoenix:latest
+  #   ports:
+  #     - "6006:6006"  # UI and OTLP HTTP collector
+  #     - "4317:4317"  # OTLP gRPC collector
+
+volumes:
+  openwebui_data:

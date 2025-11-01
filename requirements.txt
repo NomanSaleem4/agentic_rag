@@ -1,0 +1,46 @@
+fastapi==0.118.0
+uvicorn[standard]==0.37.0
+pydantic==2.11.9
+python-dotenv==1.1.1
+loguru==0.7.3
+
+# RAG and Vector Store
+llama-index==0.14.3
+llama-index-embeddings-huggingface==0.6.1
+llama-index-vector-stores-postgres==0.7.0
+sentence-transformers==5.1.1
+llama-index-llms-ollama==0.8.0
+# llama-index-core==0.13.5
+
+
+# CrewAI
+crewai==0.201.1
+crewai-tools==0.75.0
+
+# Database
+psycopg2-binary==2.9.10
+
+# Phoenix Tracing
+arize-phoenix==12.2.0
+arize-phoenix-client==1.21.0
+arize-phoenix-otel==0.13.1
+openinference-instrumentation-llama-index==4.3.5
+openinference-instrumentation-crewai==0.1.13
+openinference-instrumentation-litellm
+
+# Evaluation
+ragas==0.3.6
+datasets==4.1.1
+pandas==2.2.3
+
+# HTTP requests
+requests==2.32.5
+
+# Ollama for contextual processing
+# ollama==0.3.2
+ollama==0.5.1
+
+# Additional dependencies
+numpy==2.2.6
+torch==2.8.0
+transformers==4.56.2

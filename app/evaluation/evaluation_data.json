@@ -1,0 +1,66 @@
+[
+  {
+    "question": "What are the four types of procurement capabilities defined in the Procurement Capability Model?",
+    "ground_truth": "The four types of procurement capabilities are: Strategic, Tactical, Operational, and Supporting capabilities."
+  },
+  {
+    "question": "How are procurement benefits classified in the manual?",
+    "ground_truth": "Procurement Benefits are classified into three types: Cost Reduction ('same for less'), Cost Avoidance ('avoiding future cost'), and Cash Impact."
+  },
+  {
+    "question": "What is the role of the Government Procurement Office (GPO)?",
+    "ground_truth": "The GPO acts on behalf of Entities to consolidate demand for economies of scale, manages sourcing for Common Categories, provides shared services (e.g., Supplier Registration, Master Data Management), maintains the Procurement Framework, operates the eGate platform, and runs market development initiatives."
+  },
+
+
+   {
+    "question": "What is the difference between a 'Full Sourcing Project' and a 'Quick Sourcing Project'?",
+    "ground_truth": "A 'Full Sourcing Project' is the preferred choice for high spend - strategic sourcing initiatives which may require a 'Sourcing Strategy', multiple Sourcing Events, and technical and commercial bid submission in separate 'Envelopes'. A 'Quick Sourcing Project' is the preferred choice for low spend - non-strategic sourcing initiatives which may not require a 'Sourcing Strategy' or multiple Sourcing Events, and where bids may be submitted in a single 'Envelope'."
+  },
+  {
+    "question": "What are the key steps to develop a 'Procurement Strategy'?",
+    "ground_truth": "1. Internal and External Analysis (Analyze procurement practice, Spend analysis, Market analysis, Benchmarking). 2. Develop Procurement Strategy (Vision and Mission, Goals/Objectives, Key Initiatives, Prioritization of Initiatives, Implementation plan). 3. Approve 'Procurement Strategy'. 4. Execute 'Procurement Strategy'."
+  },
+  {
+    "question": "What is the purpose of the 'Category Strategy'?",
+    "ground_truth": "A 'Category Strategy' is created for each Common Category and each Entity-Specific Category contributing to the top 80% of the Entity spend. The purpose is to create and obtain approvals for a 'Category Strategy' in the 'Knowledge Project (Category Management)' to encourage management of procurement spend in groups of similar or related goods/services/projects, leading to consolidation and optimization opportunities."
+  },
+  {
+    "question": "What are 'Always Applicable' controls in the UAE IA Standards?",
+    "ground_truth": "'Always Applicable' controls are security controls that represent requirements for instituting foundational IA capabilities within an entity. These controls shall be implemented by each relevant entity regardless of its risk assessment outcomes and are considered essential for any entity wishing to claim compliance with the UAE IA Standards."
+  },
+  {
+    "question": "How are security controls prioritized in the UAE IA Standards?",
+    "ground_truth": "Security controls are grouped into four priority levels (P1, P2, P3, P4) based on their relative impact in helping entities mitigate common threats and build foundational IA capabilities. P1 controls have the highest priority and must be implemented first. Entities may alter priorities based on risk assessment outcomes, except for P1 controls which may be augmented but never reduced."
+  },
+  {
+    "question": "What are the key stakeholder roles and responsibilities in implementing the UAE IA Standards?",
+    "ground_truth": "Key stakeholders include: 1) NESA - provides strategic leadership, coordinates stakeholder involvement, and ensures compliance monitoring; 2) Sector Regulators - contribute to standards development, develop sector-specific requirements, and ensure compliance reporting; 3) Implementing Entities - implement the standards, conduct risk assessments, and report on implementation progress."
+  },
+  
+   {
+    "question": "What are the general conditions for appointment to a public job?",
+    "ground_truth": "The candidate must: 1) be a citizen of the country, 2) be of good conduct, 3) be not less than eighteen Gregorian years (with exceptions for secondary certificate holders), 4) have a national service card or certificate showing their position, 5) not have been convicted of a felony or misdemeanor involving breach of honour or trust unless exonerated, 6) not have been previously dismissed by a final disciplinary judgement unless at least two years have elapsed, 7) prove physical fitness for the job, 8) have the necessary qualification duly certified, and 9) meet the job requirements according to the approved job description."
+  },
+  {
+    "question": "What is the duration of the probationary period for a newly appointed employee?",
+    "ground_truth": "The employee appointed by the government authority shall be subject to a probationary period of three months starting from the date they take over the work, and it may be extended for another similar period from the date they take over the work."
+  },
+  {
+    "question": "What types of promotions are available for employees?",
+    "ground_truth": "There are three types of promotions: 1) Divisional promotion (within the same division), 2) Job promotion (to a higher position), and 3) Financial promotion (salary increase without changing position)."
+  },
+  {
+    "question": "What are the three main types of Procurement Standards?",
+    "ground_truth": "The three main types of Procurement Standards are: Establishment Standards, Enablement Standards, and Execution Standards."
+  },
+  {
+    "question": "What is the minimum number of annual training hours required for Procurement Practitioners?",
+    "ground_truth": "The head of the Procurement must ensure the allocation of a sufficient number of training hours per year, not less than minimum 40 hours per year for continuing professional development."
+  },
+  {
+    "question": "What are the four main sourcing methods enabled through the Procurement Gate?",
+    "ground_truth": "The four main sourcing methods are: 1) The Public Tender, 2) The Limited Tender, 3) The Sole Source Tender, and 4) The Single Source Tender."
+  }
+
+]
